@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>GitHub</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>Заголовок</h1>
-</body>
+<html lang="ru">
+	<head>
+		<title>Моё портфолио</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap core CSS -->
+		<link href="dist/bootstrap-4.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles -->
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- Навигация -->
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+			<div class="container">
+				<!-- Иконка бренд -->
+				<a class="navbar-brand" href="#" >Портфолио</a>
+				<!-- Кнопки для маленоких экранов -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!-- Кнопки навигациии -->
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav">
+				  	 <a class="nav-link" href="#header">Главная</a>
+			      <a class="nav-link" href="#about">Обо мне</a>
+			      <a class="nav-link" href="#portfolio">Мои работы</a>
+			      <a class="nav-link" href="#contacts">Контакты</a>
+				  </ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Хедер -->
+		<section id="header" class="header">
+			<div class="container">
+				<div class="header-block">
+					<img class="header-img" src="img/about-ava2.png" alt="Аватарка">
+					<h1 class="header-title">Клинцов Александр
+						<br><span>junior front-end разработчик</span>
+					</h1>
+				</div>
+			</div>
+		</section>
+
+		<!-- Обо мне -->
+		<section id="about" class="about">
+			<div class="container">
+				<h1>Обо мне</h1>
+				<div class="row justify-content-center">
+					<div class="col-10 col-sm-12">
+						<div class="about-text">
+							<p>Здравствуйте, меня зовут Клинцов Александр. Я начинающий front-end разработчик. В данный момент я изучил и уверенно использую в своей работе HTML и CSS, а также их фреймворки и препроцессоры (Bootstrap 3/4, Less и т.д). Для быстрой и комфортной верстки я использую Avocode и VS Studio, также хорошо владею Photoshop.</p>
+              <p>В настоящее время активно изучаю JavaScript (JS) и его библиотеку JQuery, для создания интерактивных страниц. В дальнейшем планирую основательно самые популярные фреймворки JS такие как: jQuery, Ember.js, Angular.JS, React.JS.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Портфолио -->
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<h1>Мои работы</h1>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 offset-sm-0 col-8 offset-2">
+						<a class="portfolio-item" href="#"><img class="portfolio-item-img" src="img/portfolio/cite-1.jpg" alt="Site1"></a>
+					</div>
+					<div class="col-md-4 col-sm-6 offset-sm-0 col-8 offset-2">
+						<a class="portfolio-item" href="#"><img class="portfolio-item-img" src="img/portfolio/cite-2.jpg" alt="Site2"></a>
+					</div>
+					<div class="col-md-4 col-sm-6 offset-sm-0 col-8 offset-2">
+						<a class="portfolio-item" href="#"><img class="portfolio-item-img" src="img/portfolio/cite-3.jpg" alt="Site3"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Контакты -->
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<h1>Связаться со мной</h1>
+				<div class="row">
+					<div class="col-md-2 offset-md-2 col-4 offset-2">
+						<div class="contacts-block">
+							<a class="contacts-link" href="https://github.com/klintsovaleks" target="_blank" title="klintsovaleks"><img src="img/contacts/github-icon.png" alt="github" class="contacts-img"></a>
+						</div>
+					</div>
+					<div class="col-md-2 col-4">
+						<div class="contacts-block">
+							<a class="contacts-link contacts-link-even" href="mailto:klintsovaleksandr@gmail.com" title="klintsovaleksandr@gmail.com"><img src="img/contacts/gmail-icon.png" alt="gmail" class="contacts-img"></a>
+						</div>
+					</div>
+					<div class="col-md-2 offset-md-0 col-4 offset-2">
+						<div class="contacts-block">
+							<a class="contacts-link contacts-link-even" href="tel:+79805399305" title="+79805399305"><img src="img/contacts/phone-icon.png" alt="phone" class="contacts-img"></a>
+						</div>
+					</div>
+					<div class="col-md-2 offset-md-0 col-4">
+						<div class="contacts-block">
+							<a class="contacts-link" href="skype:live:38f578bad7b66eeb?call" title="live:38f578bad7b66eeb"><img src="img/contacts/skype-icon.png" alt="skype" class="contacts-img"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Футер -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-copy">
+					<span">&copy; Клинцов Александр 2019</span>
+				</div>
+			</div>
+		</footer>
+
+		<!-- JQuery script -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Bootstrap 4 JavaScript -->
+		<script src="dist/bootstrap-4.2.1/dist/js/bootstrap.min.js"></script>
+    <!-- Подключение основного Jquery-файла -->
+		<script type="text/javascript" src="js/main.js"></script>
+    <!-- Подключение PageScroll2id -->
+		<script type="text/javascript" src="js/PageScroll2id.min.js"></script>
+	</body>
 </html>
