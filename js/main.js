@@ -6,6 +6,6 @@
 // // PageScroll2id
 $(document).ready(function(){
   $(".nav-link").mPageScroll2id({
-  	offset: 150,
+  	offset: 62,
   });
 });
