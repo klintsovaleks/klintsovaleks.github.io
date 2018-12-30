@@ -148,9 +148,9 @@ section {
   .navbar-nav {
     text-align: center;
   }
-  .mPS2id-highlight {
+  .mPS2id-highlight-last {
     margin: 0 auto;
-    width: 30%;
+    width: 50%;
   }
   .header h1 {
     font-size: 2.2rem;
